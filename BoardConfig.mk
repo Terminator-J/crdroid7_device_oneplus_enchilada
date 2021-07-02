@@ -19,5 +19,8 @@
 
 DEVICE_PATH := device/oneplus/enchilada
 
+# TWRP
+-include device/oneplus/enchilada/twrp/twrp.mk
+
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
